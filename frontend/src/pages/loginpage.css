@@ -15,7 +15,8 @@
     font-family: sans-serif;
     font-size: 15px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     color: red;
 }
 
@@ -59,7 +60,7 @@ form .remember-forgot{
     display:flex;
     justify-content: space-between;
     font-size: 14.5px;
-    margin:-15px 0 15px;
+    margin:15px 0 15px;
 }
 
 .remember-forgot label input{
