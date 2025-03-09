@@ -36,6 +36,8 @@ def signup(data: SignupRequest):
 
     # Hash the password before storing
     doc["password"] = str(pwd_context.hash(doc["password"]))
+
+    del doc["confirm_password"]  # Remove confirm_password from the document
     
     # Insert data into MongoDB
     user_collection.insert_one(doc)
